@@ -1,17 +1,14 @@
 * {
   box-sizing: border-box;
 }
-.box {
-  display: inline-block;
-  box-sizing: border-box;
+.flex-container {
+  display: flex;
+}
+.item {
   width: 100px;
   height: 100px;
-  background-color: blue;
+  background-color: burlywood;
   padding: 10px;
-  border: 6px solid black;
+  border: 6px solid darkred;
   margin: 10px;
-}
-
-.box:nth-child(even) {
-  background-color: red;
 }
